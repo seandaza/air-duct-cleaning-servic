@@ -1,0 +1,21 @@
+.featured{
+    padding: var(--padding-section);
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+.box_featured{
+    color: var(--dark);
+}
+
+.box_featured{
+    opacity: .8;
+}
+
+@media screen and (max-width:767px){
+    .featured{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
